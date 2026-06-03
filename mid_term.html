@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <title>Mid-Term</title>
+    </body>
+    <head>
+        <style>
+            table, th, td {
+                border: 1px solid black
+
+            }
+        </style>
+        <table style="width: 100%;">
+            <tr >
+                <th style="width: 50%; background-color: blueviolet;">Name</th>
+                <th style="width: 50%; background-color: blueviolet;">Value</th>
+            </tr>
+            <tr style="width: 100%;">
+                <td>Name</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Sex</td>
+                <td>
+                    <form>
+                        <input type="radio" id="male" name="sex" value="Male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="sex" value="female">
+                        <label for="female">Female</label>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Eyes Color</td>
+                <td>
+                    <label for="eyes"></label>
+                    <select id="color" name="color">
+                        <option>Red</option>
+                        <option>Yellow</option>
+                        <option>Blue</option>
+                        <option>Brown</option>
+                        <option>Pink</option>
+                        <option>White</option>
+                    </select>
+                </td>
+            </tr>    
+            <tr>
+                <td>Cheek all that apply</td>
+                <td>
+                    <form>
+                        <div>
+                            <input type="checkbox" id="apply" name="apply" value="over 6 feets tall">
+                            <label for="over 6 feets tall">Over 6 feets tall</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="apply" name="apply" value="over 200 pounds">
+                            <label for="over 200 pounds">Over 200 pounds</label>
+                        </div>    
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Describe your athlestic ability:
+                    <textarea rows="4" cols="30" style="width: 99.50%;"></textarea>
+                </td>                   
+            </tr>
+            <tr>
+                <td colspan="2" >
+                    <form>
+                        <center><input type="submit" id="information" value=" Enter my information"></center>
+                    </form>
+                </td>    
+            </tr>
+        </table>
+    </head>
+</html>
